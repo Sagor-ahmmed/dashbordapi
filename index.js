@@ -2,7 +2,7 @@ const express = require('express');
 const port= 4000;
 const mongoose = require('mongoose');
 
-const url='mongodb+srv://SagorAhmed:987654321@cluster0.1kwqnex.mongodb.net?retryWrites=true&w=majority&appName=Cluster0/e-commerce';
+const url='mongodb+srv://SagorAhmed:987654321@cluster0.1kwqnex.mongodb.net/e-commerce?retryWrites=true&w=majority&appName=Cluster0';
         
 
 
