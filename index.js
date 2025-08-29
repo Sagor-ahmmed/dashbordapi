@@ -1,8 +1,8 @@
 const express = require('express');
 const port= 4000;
 const mongoose = require('mongoose');
-require('dotenv').config();
-const url=process.env.MONGODB_URL||'mongodb://localhost:27017/e-commerce';
+
+const url='mongodb+srv://SagorAhmed:987654321@cluster0.1kwqnex.mongodb.net?retryWrites=true&w=majority&appName=Cluster0/e-commerce';
         
 
 
